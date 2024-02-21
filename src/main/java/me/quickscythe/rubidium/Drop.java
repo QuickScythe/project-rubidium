@@ -20,11 +20,11 @@ public class Drop extends ApplicationAdapter {
 
         // load the drop sound effect and the rain background "music"
         dropSound = Gdx.audio.newSound(Gdx.files.internal("drop.wav"));
-//        rainMusic = Gdx.audio.newMusic(Gdx.files.internal("rain.mp3"));
+        rainMusic = Gdx.audio.newMusic(Gdx.files.internal("rain.mp3"));
 
         // start the playback of the background music immediately
-//        rainMusic.setLooping(true);
-//        rainMusic.play();
+        rainMusic.setLooping(true);
+        rainMusic.play();
 
         // ... more to come ...
     }

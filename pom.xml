@@ -95,7 +95,7 @@
                             <icon>favicon.ico</icon>
                             <headerType>gui</headerType>
                             <outfile>target/encc.exe</outfile>
-                            <jar>target/project-silver-1.0-SNAPSHOT.jar</jar>
+                            <jar>target/project-rubidium-1.0-SNAPSHOT.jar</jar>
                             <errTitle>encc</errTitle>
                             <classPath>
                                 <mainClass>${mainClass}</mainClass>
@@ -128,7 +128,7 @@
                             <headerType>gui</headerType>
                             <icon>favicon.ico</icon>
                             <outfile>target/enccg.exe</outfile>
-                            <jar>target/project-silver-1.0-SNAPSHOT.jar</jar>
+                            <jar>target/project-rubidium-1.0-SNAPSHOT.jar</jar>
                             <errTitle>enccg</errTitle>
                             <classPath>
                                 <mainClass>${mainClass}</mainClass>
